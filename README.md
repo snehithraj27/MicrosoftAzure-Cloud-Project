@@ -2,14 +2,11 @@
 A cloud-based picture and associated information storage and retrieval system with a (local) web interface (UI)
 
 
- Description: 
-  One of the most common uses of “Clouds”, is shared or backup storage. SaaS, with a 
-  friendly interface.  
-
-The project is to provide a local interface to a cloud service that you will 
-  implement that will allow a user to upload a meta-information table “people.csv”, 
-  a .csv (text) table followed by several individual pictures. Then the user may  
-  do queries that select some (or none) pictures, specified in the people table. 
+Description:  
+The project provides a local interface to a cloud service 
+that will allow a user to upload a meta-information table “people.csv”, 
+a .csv (text) table followed by several individual pictures. Then the user may  
+do queries that select some (or none) pictures, specified in the people table. 
 
 Which will look like (in the “people.csv”): 
 
