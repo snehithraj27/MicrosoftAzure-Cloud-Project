@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Images</title>
+</head>
+<body>
+<h1>Snehith Raj Bada</h1>
+<h1>1001552507</h1>
+<a href="/">Home</a>
+<table border=4>
+    <thead>
+    <td>Name</td>
+    <td>Images</td>
+    </thead>
+
+    {% for row in images %}
+        <tr>
+            <td>{{ row[0] }}</td>
+             <td><img src="{{ row[1] }}" alt="User Image"></td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

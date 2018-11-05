@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>Snehith Raj Bada</h1>
+<h1>1001552507</h1>
+<h1>Assignment1</h1>
+<h3>File Upload to insert data</h3>
+<form action="/insertdata" method="post" enctype="multipart/form-data">
+    <input type="file" name="data_file" />
+    <input type="submit" />
+</form>
+<h3>Display Records</h3>
+<form action="/getrecords" method="post" enctype="multipart/form-data">
+    <input type="submit" />
+</form>
+</form>
+<h3>Delete all Records</h3>
+<form action="/deleterecords" method="post" enctype="multipart/form-data">
+    <input type="submit" />
+</form>
+<h3>Image Upload</h3>
+<h3>{{ msg }}</h3>
+<form action="/uploadimage" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" />
+    <input type="submit" />
+</form>
+<br>
+<h3>Enter Name to display picture</h3>
+<form action="/searchname" method="post" enctype="multipart/form-data">
+    <label>Enter Name:</label>
+    <input type="text" name="name" />
+    <input type="submit" />
+</form>
+<br>
+<h3>Enter Grade to display pictures</h3>
+<form action="/searchpicture" method="post" enctype="multipart/form-data">
+     <label>Enter Grade:</label>
+    <input type="text" name="grade" />
+    <input type="submit" />
+</form>
+<br>
+<h3>Enter Name to add picture</h3>
+<form action="/addpicture" method="post" enctype="multipart/form-data">
+    <label>Enter Name:</label>
+    <input type="text" name="name" />
+    <label>Upload Picture:</label>
+    <input type="file" name="image" />
+    <input type="submit" />
+</form>
+<br>
+<h3>Enter Name to delete</h3>
+<form action="/removename" method="post" enctype="multipart/form-data">
+    <label>Enter Name:</label>
+    <input type="text" name="remove_name" />
+    <input type="submit" />
+</form>
+<br>
+<h3>Enter Keyword to Change</h3>
+<form action="/changekeyword" method="post" enctype="multipart/form-data">
+    <label>Enter Name:</label>
+    <input type="text" name="name" />
+    <label>Enter Keyword:</label>
+    <input type="text" name="keyword" />
+    <input type="submit" />
+</form>
+<br>
+<h3>Enter Grade to Change</h3>
+<form action="/changegrade" method="post" enctype="multipart/form-data">
+    <label>Enter Name:</label>
+    <input type="text" name="name" />
+    <label>Enter Grade:</label>
+    <input type="text" name="grade" />
+    <input type="submit" />
+</form>
+</body>
+</html>
