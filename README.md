@@ -1,7 +1,6 @@
 # MicrosoftAzure-Cloud-Project1
 A cloud-based picture and associated information storage and retrieval system with a (local) web interface (UI)
 
-
 Description:  
 The project provides a local interface to a cloud service 
 that will allow a user to upload a meta-information table “people.csv”, 
@@ -13,7 +12,6 @@ Which will look like (in the “people.csv”):
 Nora,100,550,1000010,nora.jpg,Nora is nice 
 Jees,98,420,,jees.jpg,Jees is Jees 
 Abhishek,98,,,abhishek.jpg,Abhishek is not Jees 
-… 
 
 And cloud-based “service” will allow a user to: 
 + Search for Nora (Name) and show her picture on a web page. 
@@ -22,5 +20,4 @@ And cloud-based “service” will allow a user to:
 + Remove Dave 
 + Change Jees keywords to “Jees is still Jees” 
 + Change Abhishek’s grade 
-And similar… 
  
